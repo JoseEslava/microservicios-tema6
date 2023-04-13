@@ -3,18 +3,15 @@
 variable app_name {
     default = "flixtube"
 }
+
+variable name_register {
+    default = "flixtubebanco"
+}
+
 variable location {
-  default = "West US"
+  default = "South Central US"
 }
 
 variable admin_username {
   default = "linux_admin"
-}
-
-variable client_id {
-
-}
-
-variable client_secret {
-
 }
