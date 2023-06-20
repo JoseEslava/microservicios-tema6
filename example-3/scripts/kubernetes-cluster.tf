@@ -5,7 +5,7 @@ resource "azurerm_kubernetes_cluster" "cluster" {
     location            = var.location
     resource_group_name = azurerm_resource_group.flixtube.name
     dns_prefix          = var.app_name
-    kubernetes_version  = "1.24.10"
+    kubernetes_version  = "1.26.0"
 
     linux_profile {
         admin_username = var.admin_username
@@ -22,8 +22,8 @@ resource "azurerm_kubernetes_cluster" "cluster" {
     }
 
     service_principal {
-        client_id     = "a71b0b05-3164-429d-9507-e6cffb2a7b16"
-        client_secret = "Dob8Q~X7NslvMAxQKoACCtcKAprP7Ks17XIpsdnE"
+        client_id     = "xxxxxx-xxxxxxxxxxx-xxxxxxxxxx-xxxx"
+        client_secret = "xxxxxxx-xxxxxxxx-xxxxxxxxx-xxxx"
     }
 }
 

@@ -5,7 +5,7 @@ variable app_name {
 }
 
 variable name_register {
-    default = "flixtubebanco"
+    default = "flixtubebancobase"
 }
 
 variable location {
